@@ -51,5 +51,9 @@ input[type="submit"] {
     font-weight: bold;
 }
 select {
-    ap
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    
+    background-image: url('./Images/arrow.jpg');
 }
